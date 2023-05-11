@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "§a§lMade by 朱鷺",
+		"name": "§f§lCut-MineFja-JP{v.0.0.3-1.17}",
+		"uuid": "db87d900-8d86-41e9-a1ca-000001000003",
+		"version": [
+			0,
+			0,
+			3
+		],
+		"min_engine_version": [
+			1,
+			17,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Cut-MineF Japanese",
+			"type": "data",
+			"uuid": "db87e1de-8d86-41e9-a1ca-f00001000003",
+			"version": [
+				0,
+				0,
+				3
+			]
+		}
+	]
+}

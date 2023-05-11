@@ -1,0 +1,10 @@
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~ ~ ~1 ancient_debris 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~1 ~ ~1 ancient_debris 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~-1 ~ ~1 ancient_debris 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~1 ~ ~-1 ancient_debris 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~-1 ~ ~-1 ancient_debris 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~1 ~ ~ ancient_debris 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~-1 ~ ~ ancient_debris 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~ ~ ~-1 ancient_debris 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~ ~-1 ~ ancient_debris 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="古代のがれき",r=6] ~ ~ ~ detect ~ ~1 ~ ancient_debris 0 fill ~ ~1 ~ ~ ~1 ~ air 0 destroy

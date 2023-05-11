@@ -1,0 +1,32 @@
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 3 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 3 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 3 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 3 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 3 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 3 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 3 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 3 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 3 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 3 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 7 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 7 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 7 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 7 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 7 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 7 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 7 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 7 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 7 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 7 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 11 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 11 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 11 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 11 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 11 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 11 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 11 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 11 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 11 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ジャングルの木の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 11 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

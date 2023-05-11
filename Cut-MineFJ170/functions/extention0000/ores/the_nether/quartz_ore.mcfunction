@@ -1,0 +1,10 @@
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~ ~ ~1 quartz_ore 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~1 ~ ~1 quartz_ore 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~-1 ~ ~1 quartz_ore 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~1 ~ ~-1 quartz_ore 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~-1 ~ ~-1 quartz_ore 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~1 ~ ~ quartz_ore 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~-1 ~ ~ quartz_ore 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~ ~ ~-1 quartz_ore 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~ ~-1 ~ quartz_ore 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @a ~ ~ ~ execute @e[name="ネザークォーツ",r=6] ~ ~ ~ detect ~ ~1 ~ quartz_ore 0 fill ~ ~1 ~ ~ ~1 ~ air 0 destroy

@@ -1,0 +1,32 @@
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~1 warped_stem 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~1 warped_stem 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~1 warped_stem 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~-1 warped_stem 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~-1 warped_stem 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~ warped_stem 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~ warped_stem 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~-1 warped_stem 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~-1 ~ warped_stem 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~1 ~ warped_stem 0 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~1 warped_stem 1 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~1 warped_stem 1 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~1 warped_stem 1 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~-1 warped_stem 1 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~-1 warped_stem 1 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~ warped_stem 1 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~ warped_stem 1 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~-1 warped_stem 1 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~-1 ~ warped_stem 1 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~1 ~ warped_stem 1 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~1 warped_stem 2 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~1 warped_stem 2 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~1 warped_stem 2 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~-1 warped_stem 2 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~-1 warped_stem 2 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~1 ~ ~ warped_stem 2 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~-1 ~ ~ warped_stem 2 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~ ~-1 warped_stem 2 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~-1 ~ warped_stem 2 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="ゆがんだ幹",r=12] ~ ~ ~ detect ~ ~1 ~ warped_stem 2 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

@@ -1,0 +1,32 @@
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 1 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 1 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 1 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 1 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 1 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 1 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 1 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 1 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 1 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 1 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 5 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 5 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 5 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 5 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 5 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 5 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 5 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 5 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 5 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 5 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 9 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 9 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 9 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 9 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 9 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 9 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 9 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 9 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 9 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 9 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

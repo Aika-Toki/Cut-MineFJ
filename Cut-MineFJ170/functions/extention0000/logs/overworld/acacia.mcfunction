@@ -1,0 +1,32 @@
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 0 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 4 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 4 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 4 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 4 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 4 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 4 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 4 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 4 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 4 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 4 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 8 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 8 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 8 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 8 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 8 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 8 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 8 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 8 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 8 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="アカシアの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 8 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

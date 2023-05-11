@@ -1,0 +1,32 @@
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 0 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 4 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 4 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 4 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 4 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 4 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 4 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 4 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 4 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 4 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 4 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log 8 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log 8 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log 8 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log 8 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log 8 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log 8 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log 8 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log 8 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log 8 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log 8 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

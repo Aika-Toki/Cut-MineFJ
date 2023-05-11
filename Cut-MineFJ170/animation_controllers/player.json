@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.sneakingVariable": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"sneaking":"query.is_sneaking"}
+					],
+					"on_entry": [
+						"/function sys0"
+					]
+				},
+				"sneaking": {
+					"transitions": [
+						{"default":"!query.is_sneaking"},
+						{"sneaking1":"query.is_sneaking"}
+					],
+					"on_entry": [
+						"/function sys1"
+					]
+				},
+				"sneaking1": {
+					"transitions": [
+						{"sneaking":"query.is_sneaking"},
+						{"default":"!query.is_sneaking"}
+					],
+					"on_entry": [
+						"/function sys1"
+					]
+				}
+			}
+		}
+	}
+}
