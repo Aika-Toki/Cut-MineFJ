@@ -1,0 +1,32 @@
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 cherry_log 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 cherry_log 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 cherry_log 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 cherry_log 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 cherry_log 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ cherry_log 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ cherry_log 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 cherry_log 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ cherry_log 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ cherry_log 0 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 cherry_log 1 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 cherry_log 1 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 cherry_log 1 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 cherry_log 1 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 cherry_log 1 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ cherry_log 1 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ cherry_log 1 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 cherry_log 1 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ cherry_log 1 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ cherry_log 1 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 cherry_log 2 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 cherry_log 2 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 cherry_log 2 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 cherry_log 2 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 cherry_log 2 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ cherry_log 2 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ cherry_log 2 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 cherry_log 2 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ cherry_log 2 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="チェリーの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ cherry_log 2 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy

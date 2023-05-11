@@ -1,0 +1,32 @@
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 mangrove_log 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 mangrove_log 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 mangrove_log 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 mangrove_log 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 mangrove_log 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ mangrove_log 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ mangrove_log 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 mangrove_log 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ mangrove_log 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ mangrove_log 0 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 mangrove_log 1 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 mangrove_log 1 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 mangrove_log 1 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 mangrove_log 1 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 mangrove_log 1 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ mangrove_log 1 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ mangrove_log 1 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 mangrove_log 1 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ mangrove_log 1 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ mangrove_log 1 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~1 mangrove_log 2 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 mangrove_log 2 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 mangrove_log 2 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 mangrove_log 2 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 mangrove_log 2 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~1 ~ ~ mangrove_log 2 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ mangrove_log 2 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 mangrove_log 2 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ mangrove_log 2 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
+execute @e[name="マングローブの丸太",r=12] ~ ~ ~ detect ~ ~1 ~ mangrove_log 2 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
