@@ -1,5 +1,4 @@
-# minecraft vanilla 1.17
-# TODO: Update to 1.20 style
+# minecraft vanilla 1.17: Updated to 1.20 style
 function extention0000/main
 # minecraft vanilla 1.20
 function extention0000_20/main
