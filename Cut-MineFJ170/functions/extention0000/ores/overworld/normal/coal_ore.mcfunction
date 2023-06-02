@@ -1,10 +1,10 @@
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~ ~ ~1 coal_ore 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~1 ~ ~1 coal_ore 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~-1 ~ ~1 coal_ore 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~1 ~ ~-1 coal_ore 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~-1 ~ ~-1 coal_ore 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~1 ~ ~ coal_ore 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~-1 ~ ~ coal_ore 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~ ~ ~-1 coal_ore 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~ ~-1 ~ coal_ore 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="石炭",r=6] ~ ~ ~ detect ~ ~1 ~ coal_ore 0 fill ~ ~1 ~ ~ ~1 ~ air 0 destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~ ~-1 ~ minecraft:coal_ore run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~-1 ~ ~-1 minecraft:coal_ore run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~-1 ~ ~ minecraft:coal_ore run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~-1 ~ ~1 minecraft:coal_ore run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~ ~ ~-1 minecraft:coal_ore run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~ ~ ~1 minecraft:coal_ore run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~1 ~ ~-1 minecraft:coal_ore run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~1 ~ ~ minecraft:coal_ore run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~1 ~ ~1 minecraft:coal_ore run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="石炭",r=6] at @s if block ~ ~1 ~ minecraft:coal_ore run fill ~ ~1 ~ ~ ~1 ~ air destroy

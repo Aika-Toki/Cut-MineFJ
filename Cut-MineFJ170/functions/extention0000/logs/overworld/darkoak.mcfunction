@@ -1,32 +1,43 @@
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 1 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 1 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 1 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 1 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 1 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 1 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 1 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 1 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 1 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 1 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~-1 ~ minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~1 ~ minecraft:dark_oak_log ["pillar_axis":"y"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
 
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 5 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 5 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 5 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 5 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 5 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 5 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 5 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 5 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 5 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 5 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~-1 ~ minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~1 ~ minecraft:dark_oak_log ["pillar_axis":"x"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
 
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~1 log2 9 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~1 log2 9 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~1 log2 9 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~-1 log2 9 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~-1 log2 9 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~1 ~ ~ log2 9 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~-1 ~ ~ log2 9 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~ ~-1 log2 9 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~-1 ~ log2 9 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
-execute @e[name="黒樫の丸太",r=12] ~ ~ ~ detect ~ ~1 ~ log2 9 fill ~ ~2 ~ ~ ~1 ~ air 0 destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~-1 ~ minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~-1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~ minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~1 minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~1 ~ minecraft:dark_oak_log ["pillar_axis":"z"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
+
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~1 minecraft:dark_oak_leaves run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~1 minecraft:dark_oak_leaves run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~1 minecraft:dark_oak_leaves run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~-1 minecraft:dark_oak_leaves run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~-1 minecraft:dark_oak_leaves run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~1 ~ ~ minecraft:dark_oak_leaves run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~-1 ~ ~ minecraft:dark_oak_leaves run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~ ~-1 minecraft:dark_oak_leaves run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~-1 ~ minecraft:dark_oak_leaves run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="黒樫の丸太",r=12] at @s if block ~ ~1 ~ minecraft:dark_oak_leaves run fill ~ ~2 ~ ~ ~1 ~ air destroy

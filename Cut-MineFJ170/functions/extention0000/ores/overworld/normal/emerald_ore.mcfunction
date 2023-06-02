@@ -1,10 +1,10 @@
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~ ~ ~1 emerald_ore 0 fill ~ ~ ~1 ~ ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~1 ~ ~1 emerald_ore 0 fill ~1 ~ ~1 ~1 ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~-1 ~ ~1 emerald_ore 0 fill ~-1 ~ ~1 ~-1 ~ ~1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~1 ~ ~-1 emerald_ore 0 fill ~1 ~ ~-1 ~1 ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~-1 ~ ~-1 emerald_ore 0 fill ~-1 ~ ~-1 ~-1 ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~1 ~ ~ emerald_ore 0 fill ~1 ~ ~ ~1 ~ ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~-1 ~ ~ emerald_ore 0 fill ~-1 ~ ~ ~-1 ~ ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~ ~ ~-1 emerald_ore 0 fill ~ ~ ~-1 ~ ~ ~-1 air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~ ~-1 ~ emerald_ore 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy
-execute @a ~ ~ ~ execute @e[name="エメラルド",r=6] ~ ~ ~ detect ~ ~1 ~ emerald_ore 0 fill ~ ~1 ~ ~ ~1 ~ air 0 destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~ ~-1 ~ minecraft:emerald_ore run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~-1 ~ ~-1 minecraft:emerald_ore run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~-1 ~ ~ minecraft:emerald_ore run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~-1 ~ ~1 minecraft:emerald_ore run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~ ~ ~-1 minecraft:emerald_ore run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~ ~ ~1 minecraft:emerald_ore run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~1 ~ ~-1 minecraft:emerald_ore run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~1 ~ ~ minecraft:emerald_ore run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~1 ~ ~1 minecraft:emerald_ore run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="エメラルド",r=6] at @s if block ~ ~1 ~ minecraft:emerald_ore run fill ~ ~1 ~ ~ ~1 ~ air destroy
