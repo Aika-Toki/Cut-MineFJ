@@ -2,16 +2,16 @@
 	"format_version": 2,
 	"header": {
 		"description": "§a§lMade by 秋鹿朱鷺",
-		"name": "§f§lCut-MineF [ja-JP] {v.0.0.4-1.20}",
-		"uuid": "818a80af-3927-9183-8e61-4efb517a76ae",
+		"name": "§f§lCut-MineF [ja-JP] {v.0.0.5-1.20}",
+		"uuid": "abf0a491-1dd1-a532-1248-256ac82be105",
 		"version": [
 			0,
 			0,
-			4
+			5
 		],
 		"min_engine_version": [
 			1,
-			17,
+			20,
 			0
 		]
 	},
@@ -19,11 +19,11 @@
 		{
 			"description": "Cut-MineF Japanese",
 			"type": "data",
-			"uuid": "d1039caf-ffa2-fbbb-3d8c-88bae9efbdc2",
+			"uuid": "b2f2fb5b-b3f0-a39d-11cd-75e95aeca91e",
 			"version": [
 				0,
 				0,
-				4
+				5
 			]
 		}
 	]
