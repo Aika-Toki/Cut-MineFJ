@@ -1,2 +1,2 @@
-function extention0000/f/logs
-function extention0000/f/ores
+function extention0000/group/logs
+function extention0000/group/ores
