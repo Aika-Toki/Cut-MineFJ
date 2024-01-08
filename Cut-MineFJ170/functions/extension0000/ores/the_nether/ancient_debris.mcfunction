@@ -1,0 +1,10 @@
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~ ~-1 ~ minecraft:ancient_debris run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~-1 ~ ~-1 minecraft:ancient_debris run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~-1 ~ ~ minecraft:ancient_debris run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~-1 ~ ~1 minecraft:ancient_debris run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~ ~ ~-1 minecraft:ancient_debris run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~ ~ ~1 minecraft:ancient_debris run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~1 ~ ~-1 minecraft:ancient_debris run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~1 ~ ~ minecraft:ancient_debris run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~1 ~ ~1 minecraft:ancient_debris run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="古代の残骸",r=6] at @s if block ~ ~1 ~ minecraft:ancient_debris run fill ~ ~1 ~ ~ ~1 ~ air destroy

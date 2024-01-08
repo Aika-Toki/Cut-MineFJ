@@ -1,0 +1,10 @@
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~ ~-1 ~ minecraft:deepslate_gold_ore run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~-1 ~ ~-1 minecraft:deepslate_gold_ore run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~-1 ~ ~ minecraft:deepslate_gold_ore run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~-1 ~ ~1 minecraft:deepslate_gold_ore run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~ ~ ~-1 minecraft:deepslate_gold_ore run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~ ~ ~1 minecraft:deepslate_gold_ore run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~1 ~ ~-1 minecraft:deepslate_gold_ore run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~1 ~ ~ minecraft:deepslate_gold_ore run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~1 ~ ~1 minecraft:deepslate_gold_ore run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="金の原石",r=6] at @s if block ~ ~1 ~ minecraft:deepslate_gold_ore run fill ~ ~1 ~ ~ ~1 ~ air destroy
