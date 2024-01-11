@@ -1,0 +1,43 @@
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~-1 ~ minecraft:acacia_log ["pillar_axis":"y"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~ minecraft:acacia_log ["pillar_axis":"y"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~-1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~ minecraft:acacia_log ["pillar_axis":"y"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~1 minecraft:acacia_log ["pillar_axis":"y"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~1 ~ minecraft:acacia_log ["pillar_axis":"y"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
+
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~-1 ~ minecraft:acacia_log ["pillar_axis":"x"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~ minecraft:acacia_log ["pillar_axis":"x"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~-1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~ minecraft:acacia_log ["pillar_axis":"x"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~1 minecraft:acacia_log ["pillar_axis":"x"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~1 ~ minecraft:acacia_log ["pillar_axis":"x"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
+
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~-1 ~ minecraft:acacia_log ["pillar_axis":"z"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~ minecraft:acacia_log ["pillar_axis":"z"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~-1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~-1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~ minecraft:acacia_log ["pillar_axis":"z"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~1 minecraft:acacia_log ["pillar_axis":"z"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~1 ~ minecraft:acacia_log ["pillar_axis":"z"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
+
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~ ~ ~1 ~ ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~1 ~ ~1 ~1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~-1 ~ ~1 ~-1 ~ ~1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~-1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~1 ~ ~-1 ~1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~-1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~-1 ~ ~-1 ~-1 ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~1 ~ ~ minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~1 ~ ~ ~1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~-1 ~ ~ minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~-1 ~ ~ ~-1 ~ ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~ ~-1 minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~ ~ ~-1 ~ ~ ~-1 air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~-1 ~ minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~ ~-1 ~ ~ ~-1 ~ air destroy
+execute as @e[type=item,name="アカシアの原木",r=12] at @s if block ~ ~1 ~ minecraft:leaves2 ["new_leaf_type":"acacia"] run fill ~ ~2 ~ ~ ~1 ~ air destroy
